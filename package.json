@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/jason-michael/express-mysql-todo.git"
   },
-  "keywords": ["todo", "express", "heroku", "mysql"],
+  "keywords": [
+    "todo",
+    "express",
+    "heroku",
+    "mysql"
+  ],
   "author": "Jason Michael",
   "license": "MIT",
   "bugs": {
@@ -21,7 +26,7 @@
   "dependencies": {
     "bulma": "^0.7.2",
     "express": "^4.16.4",
-    "mysql": "^2.16.0",
+    "mysql2": "^3.1.2",
     "pug": "^2.0.3"
   },
   "engines": {

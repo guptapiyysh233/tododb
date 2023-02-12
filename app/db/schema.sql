@@ -8,5 +8,6 @@ CREATE TABLE todos
     id INT NOT NULL AUTO_INCREMENT,
     task VARCHAR(255) NOT NULL,
     done BOOLEAN NOT NULL DEFAULT 0,
+    taskdate DATETIME DEFAULT now(),
     PRIMARY KEY (id)
 );
